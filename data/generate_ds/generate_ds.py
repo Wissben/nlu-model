@@ -1,5 +1,6 @@
 from data import colors, inform_intents, intents, get_objects, sizes
 import pprint
+import random
 
 def get_types_of_sentences():
     sentences =dict()
