@@ -48,7 +48,7 @@ def generate_dataset():
 
 
 def generate_md_file():
-    with open('nlu-model/data/generate_ds/data.md', 'w') as f:
+    with open('nlu-model/data/nlu.md', 'w') as f:
         prints, informs = generate_dataset()
         prints_header = "## intent:print"
         inform_header = "## intent:inform"
