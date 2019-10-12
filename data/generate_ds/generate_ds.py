@@ -55,13 +55,13 @@ def generate_md_file():
         f.write(prints_header+"\n")
         for index, intents in prints.items():
             for intent in intents:
-                if random.random() < 0.4:
+                if random.random() < 0.7:
                     f.write("- "+intent+"\n")
 
         f.write(inform_header + "\n")
         for index, intents in informs.items():
             for intent in intents:
-                if random.random() < 0.4:
+                if random.random() < 0.7:
                     f.write("- "+intent+"\n")
 
         f.close()
