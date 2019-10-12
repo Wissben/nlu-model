@@ -5,11 +5,9 @@ colors = {'red':'#FF0000',
           'brown':'#663300',
           'black':'#FFFFFF',
           'white':'#0000FF',
-          'orange':'#FF8000',
-          'purple':'#7F00FF',
-          'pink':'#FF3399'}
+}
 
-sizes = ['small', 'medium', 'big', 'skinny', 'large']
+sizes = ['small', 'medium', 'large']
 
 intents = ['print a', 'try to print a', 'could you please print a', 'can you please print a', 'can you print a',
            'make a', 'i want a', 'give me a', 'produce a', 'i need a', ]
