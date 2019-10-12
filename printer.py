@@ -1,5 +1,5 @@
 import os
-from synomyms import get_synonyms
+from words_similarity import get_synonyms
 
 def get_directory_files(path):
     cleaned_files = []
@@ -87,8 +87,3 @@ def give_instruction(semantic_frame):
         return action, model_path, color, size
     else:
         return None
-
-
-test = {"intent":{"name":"print","confidence":0.7975472808},"entities":[{"start":8,"end":13,"value":"small","entity":"size","confidence":0.998816315,"extractor":"CRFEntityExtractor"},{"start":29,"end":35,"value":"people","entity":"object","confidence":0.5410338733,"extractor":"CRFEntityExtractor"}],"intent_ranking":[{"name":"print","confidence":0.7975472808},{"name":"inform","confidence":0.1343427449},{"name":"ask","confidence":0.0428403467},{"name":"cancel","confidence":0.0094871586},{"name":"deny","confidence":0.0080026835},{"name":"confirm","confidence":0.0077797733}],"text":"it is a small cute chair old people"}
-
-print(give_instruction(test))
