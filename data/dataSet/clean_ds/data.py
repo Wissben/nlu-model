@@ -20,7 +20,7 @@ inform_intents = ['make sure it\'s', 'make sure it\'s a', 'make sure it is a', '
 def get_objects():
     uncleaned = []
     objects = []
-    with open('data.txt', 'r') as f:
+    with open('./data.txt', 'r') as f:
         uncleaned = f.readlines()
 
         for o in uncleaned:
