@@ -17,7 +17,7 @@ inform_intents = ['it\'s a',
 def get_objects(ration=0.30):
     uncleaned = []
     objects = []
-    with open('nlu-model/data/generate-ds/data.txt', 'r') as f:
+    with open('nlu-model/data/generate_ds/data.txt', 'r') as f:
         uncleaned = f.readlines()
 
 
