@@ -14,7 +14,7 @@ intents = ['print a', 'try to print a', 'could you please print a', 'can you ple
 inform_intents = ['it\'s a',
                   'it\'s', 'it is a', 'it is', 'let it be a', 'let it be']
 
-def get_objects(ration=0.20):
+def get_objects(ration=0.30):
     uncleaned = []
     objects = []
     with open('nlu-model/data/generate_ds/data.single', 'r') as f:
