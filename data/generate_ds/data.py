@@ -8,13 +8,22 @@ colors = {'red':'#FF0000',
 
 sizes = ['small', 'medium', 'large']
 
-intents = ['print a', 'try to print a', 'could you please print a', 'can you please print a', 'can you print a',
-           'make a', 'i want a', 'give me a', 'produce a', 'i need a', ]
+intents = ['print a', 'print a', 'make a', 'create a', 
+           'i want a', 'give me a', 'produce a', 'i need a',
+           'i would like a' ]
 
 inform_intents = ['it\'s a',
-                  'it\'s', 'it is a', 'it is', 'let it be a', 'let it be']
+                  'it\'s', 
+                  'it is a', 
+                  'it is', 
+                  'let it be a', 
+                  'let it be',
+                  'make it a',
+                  'try with a',
+                  'try with',
+                  'make it']
 
-def get_objects(ration=0.30):
+def get_objects(ration=0.2):
     uncleaned = []
     objects = []
     with open('nlu-model/data/generate_ds/data.single', 'r') as f:
